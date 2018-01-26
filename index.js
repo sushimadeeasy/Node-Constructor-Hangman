@@ -36,7 +36,7 @@ var game = {
 		this.guessesRemaining = 10;
 		var j = Math.floor(Math.random() * this.wordBank.length);
 		this.currentWord = this.wordBank[j];
-		console.log("I'm thinking about a planet. Guess which one it is.")
+		console.log("I'm thinking about a country. Guess which one it is.")
 		displayHangman = new lettersToDisplay(this.currentWord);
 		displayHangman.parseDisplay();
 		console.log('Guesses Left: ' + game.guessesRemaining);
